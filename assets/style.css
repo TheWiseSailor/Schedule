@@ -1,6 +1,14 @@
+:root {
+  --primary-color: rgba(28, 132, 173, 0.589);
+  --secondary-color: #144a52;
+  --tertiary-color: #ffffff;
+
+  /* copied from my javascript code quiz, idk whats with these colors, but I think they match very well*/
+}
 body {
   font-family: "Cedarville Cursive", cursive;
-  font-size: 16px;
+  font-size: 26px;
+  background-color: #e6ccb3;
 }
 /* I need to add code for the jumbotron*/
 .jumbotron {
@@ -9,7 +17,8 @@ body {
   font-family: "Cedarville Cursive", cursive;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
+  width: 100%;
 }
 .container {
   width: 100vh;
@@ -21,7 +30,7 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
-  padding: 10px;
+  padding: 40px;
 }
 
 .description {
@@ -40,6 +49,7 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  text-align: center;
 }
 
 .past {

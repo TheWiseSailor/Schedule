@@ -8,6 +8,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
     />
+    <!-- got the cirsuve fonts i wanted and put them in the css body and jumbo tron, as well as the links in this html-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -20,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -30,114 +31,115 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-
-    <div class="row" id="9">
-      <label class="col-sm-1 hour"> 9:00 AM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="9AMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="10">
-      <label class="col-sm-1 hour"> 10:00 AM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="10AMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="11">
-      <label class="col-sm-1 hour">11:00 AM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="11AMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="12">
-      <label class="col-sm-1 hour"> 12:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="12PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="1">
-      <label class="col-sm-1 hour"> 1:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="1PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="2">
-      <label class="col-sm-1 hour"> 2:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="2PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="3">
-      <label class="col-sm-1 hour"> 3:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="3PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="4">
-      <label class="col-sm-1 hour"> 4:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="4PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
-    </div>
-    <div class="row" id="4">
-      <label class="col-sm-1 hour"> 5:00 PM</label>
-      <textarea
-        id="hour-task"
-        type="text"
-        class="col-md-10 time-block"
-        placeholder="Tasks"
-      ></textarea>
-      <button id="5PMBtn" type="submit" class="saveBtn col-sm-1">
-        <i class="fas fa-save save"></i>
-      </button>
+    <div class="container">
+      <div class="row" id="9">
+        <label class="col-sm-1 hour"> 9:00 AM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="9AMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="10">
+        <label class="col-sm-1 hour"> 10:00 AM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="10AMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="11">
+        <label class="col-sm-1 hour">11:00 AM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="11AMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="12">
+        <label class="col-sm-1 hour"> 12:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="12PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="1">
+        <label class="col-sm-1 hour"> 1:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="1PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="2">
+        <label class="col-sm-1 hour"> 2:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="2PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="3">
+        <label class="col-sm-1 hour"> 3:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="3PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="4">
+        <label class="col-sm-1 hour"> 4:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="4PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
+      <div class="row" id="4">
+        <label class="col-sm-1 hour"> 5:00 PM</label>
+        <textarea
+          id="hour-task"
+          type="text"
+          class="col-md-10 time-block"
+          placeholder="Tasks"
+        ></textarea>
+        <button id="5PMBtn" type="submit" class="saveBtn col-sm-1">
+          <i class="fas fa-save save"></i>
+        </button>
+      </div>
     </div>
     <!-- I believe that all of the html is done for the moment, I will be starting on the css portion.... unless I want to add a custom font.. which i probably will.-->
 
@@ -148,6 +150,6 @@
       crossorigin="anonymous"
     ></script>
 
-    <script src="script.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
