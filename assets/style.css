@@ -47,7 +47,7 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(255, 255, 255);
 }
 
 .hour {
@@ -59,18 +59,18 @@ textarea {
 }
 
 .past {
-  background-color: red;
-  color: white;
+  background-color: rgba(204, 203, 203, 0.5);
+  color: black;
 }
 
 .present {
   background-color: #ff6961;
-  color: white;
+  color: black;
 }
 
 .future {
   background-color: #77dd77;
-  color: white;
+  color: black;
 }
 
 .saveBtn {
