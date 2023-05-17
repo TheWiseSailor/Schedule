@@ -16,7 +16,10 @@ $(function () {
   function hourUpdate() {
     var currentHour = dayjs().hour();
     $(".time-block").each(function () {
-      var blockHour = parseInt();
+      var blockHour = parseInt($(this).parent("id"));
+      //making it to where the time ID is before what ever how it is right now
+      // it will remove the past and future, to where it adds the present by using else if statements
+      //but first I need to make it to where it removes each class
     });
   }
   // TODO: Add a listener for click events on the save button. This code should
