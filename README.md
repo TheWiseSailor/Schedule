@@ -62,3 +62,6 @@ https://thewisesailor.github.io/Work-Day-Scheduler/
 https://github.com/TheWiseSailor/Work-Day-Scheduler
 
 # Images of the Final Product
+![schedule 1 joseph 2 0](https://github.com/TheWiseSailor/Work-Day-Scheduler/assets/68026214/60c5f756-6f9c-4c2d-8456-f46b5c7e3cb6)
+![schedule 2 1 0](https://github.com/TheWiseSailor/Work-Day-Scheduler/assets/68026214/68c93732-3f4f-479e-a147-79acdd344af4)
+![schedule 3 1 0](https://github.com/TheWiseSailor/Work-Day-Scheduler/assets/68026214/d6910dee-38e7-4095-b126-54e3bb83290f)
