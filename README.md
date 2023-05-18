@@ -55,7 +55,7 @@ This is under the MIT License.
 
 # Deployed Site
 
-https://thewisesailor.github.io/Javascript-Code-Quiz/
+https://thewisesailor.github.io/Work-Day-Scheduler/
 
 # Deployed Repository
 
